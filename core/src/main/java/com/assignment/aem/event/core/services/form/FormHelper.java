@@ -18,7 +18,7 @@ public interface FormHelper {
     boolean pushFormData(JSONObject formJsonData);
 
     /**
-     * Push form data to a remote service.
+     * Submits data into JCR .
      *
      * @param jsonData  the form data JSON object
      * @param resourceResolver the Resource Resolver Object
