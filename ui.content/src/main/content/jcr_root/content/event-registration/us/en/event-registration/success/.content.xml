@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-12T01:24:19.883+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/event-registration/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Success"
+        sling:resourceType="event-registration/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="event-registration/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="event-registration/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="event-registration/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="event-registration/components/container"
+                    layout="responsiveGrid"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

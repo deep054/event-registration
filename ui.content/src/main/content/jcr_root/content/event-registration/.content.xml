@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <language-masters/>
+    <jcr:content
+        cq:allowedTemplates="[/conf/event-registration/settings/wcm/templates/(?!xf-).*]"
+        cq:conf="/conf/event-registration"
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Event Registration"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="foundation/components/redirect"
+        redirectTarget="/content/event-registration/us/en">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <us/>
+    <event-submission jcr:primaryType="nt:unstructured">
+        <_x0031_be2844e-5d98-4e39-ace8-8feb852e76b2
+            jcr:primaryType="nt:unstructured"
+            email="asd"
+            first-name="asd"
+            last-name="asd"/>
+        <_x0031_82ba1fd-9c15-43db-8440-640ca7aead02
+            jcr:primaryType="nt:unstructured"
+            email="deepandra.bhatnagar@gmail.com"
+            first-name="asd"
+            last-name="sad"/>
+        <_x0032_29c533b-9a02-49a6-838d-b267f31bb41a
+            jcr:primaryType="nt:unstructured"
+            email="deepandra.bhatnagar@gmail.com"
+            first-name="asd"
+            last-name="sad"/>
+        <b9a0fbc8-5205-4a42-a143-8999df12cbeb
+            jcr:primaryType="nt:unstructured"
+            email="deep@deep.com"
+            first-name="kuhkh"
+            last-name="jkgjyg"/>
+        <b2a71e46-041a-4e02-a889-040f270fd35d jcr:primaryType="nt:unstructured"/>
+        <e2ac3419-e0b8-4d2c-ab10-a71d4ec35469 jcr:primaryType="nt:unstructured"/>
+        <_x0033_49bb0a1-d65d-4716-9986-a71984d0144b jcr:primaryType="nt:unstructured"/>
+        <f62865f2-020e-40bd-bc80-de89ac936cad jcr:primaryType="nt:unstructured"/>
+        <_x0034_5292013-bc3d-47de-a33f-0600be5b321c jcr:primaryType="nt:unstructured"/>
+        <eacb9913-bd3b-4792-be76-a6543a0ba48d jcr:primaryType="nt:unstructured"/>
+        <ac02e426-f042-40e0-bf5b-b9315402d5ea jcr:primaryType="nt:unstructured"/>
+        <_x0030_d5c71c4-b833-43a9-b6d8-268f6997d041 jcr:primaryType="nt:unstructured"/>
+        <b7cbe33d-16ce-4846-aa70-2887effb2639 jcr:primaryType="nt:unstructured"/>
+        <_x0037_0753307-cc2c-4bc0-8eab-0528b746432a jcr:primaryType="nt:unstructured"/>
+        <_x0030_bbeaa06-f173-4373-8bd3-c4a9ab362d12 jcr:primaryType="nt:unstructured"/>
+        <_x0037_7553290-0c4e-46e6-ba67-ca8a53bf8915 jcr:primaryType="nt:unstructured"/>
+    </event-submission>
+</jcr:root>

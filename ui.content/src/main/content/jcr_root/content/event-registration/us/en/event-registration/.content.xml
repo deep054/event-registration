@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-12T01:26:16.057+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/event-registration/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Event Registration"
+        sling:resourceType="event-registration/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="event-registration/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="event-registration/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="event-registration/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="event-registration/components/container"
+                    layout="responsiveGrid">
+                    <container
+                        jcr:created="{Date}2022-09-07T23:31:24.008+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-11T14:51:13.892+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="event-registration/components/form/container"
+                        action="/content/usergenerated/event-registration/us/en/event-registration/cq-gen1662557484011/"
+                        actionType="event-registration/components/form/actions/rpc">
+                        <text
+                            jcr:created="{Date}2022-09-08T00:19:55.075+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-08T00:21:02.054+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="First Name"
+                            sling:resourceType="event-registration/components/form/text"
+                            name="first-name"
+                            required="true"
+                            requiredMessage="Please enter first name"
+                            rows="11"
+                            type="text"/>
+                        <text_150589939
+                            jcr:created="{Date}2022-09-08T00:19:57.914+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-08T00:21:28.438+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Last Name"
+                            sling:resourceType="event-registration/components/form/text"
+                            name="last-name"
+                            required="true"
+                            requiredMessage="Please enter last name"
+                            rows="2"
+                            type="text"/>
+                        <text_1722445098
+                            jcr:created="{Date}2022-09-08T00:20:00.565+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-08T00:22:13.993+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Email"
+                            sling:resourceType="event-registration/components/form/text"
+                            constraintMessage="Please enter valid email"
+                            name="email"
+                            required="true"
+                            requiredMessage="Please enter valid email"
+                            rows="2"
+                            type="email"/>
+                        <button
+                            jcr:created="{Date}2022-09-08T00:23:33.385+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-08T00:23:56.621+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Register"
+                            sling:resourceType="event-registration/components/form/button"
+                            type="submit"/>
+                        <hidden
+                            jcr:created="{Date}2022-09-12T01:23:03.305+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-12T01:26:16.053+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="event-registration/components/form/hidden"
+                            name="success-page"
+                            value="/content/event-registration/us/en/event-registration/success"/>
+                        <hidden_1447492195
+                            jcr:created="{Date}2022-09-12T01:23:08.384+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-12T01:26:07.844+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="event-registration/components/form/hidden"
+                            name="error-page"
+                            value="/content/event-registration/us/en/event-registration/error"/>
+                    </container>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <success/>
+    <error/>
+</jcr:root>

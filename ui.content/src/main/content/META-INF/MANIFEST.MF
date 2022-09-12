@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:event
+Content-Package-Roots: /content/event-registration,/apps/event-registrat
+ ion
+Content-Package-Type: mixed
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-08T02:47:22.782+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/event-registration/settings/wcm/templates/spa-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Event Registration Home Page"
+        sling:resourceType="event-registration/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <eventdetails
+                    jcr:created="{Date}2022-09-07T22:54:17.425+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-08T02:47:22.779+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="event-registration/components/eventdetails"
+                    buttonLabel="Submit Details"
+                    buttonLinkTo="/content/event-registration/us/en/event-registration"
+                    fileReference="/content/dam/core-components-examples/library/sample-assets/mountain-range.jpg"
+                    text="&lt;p>This is Event Details  &lt;/p>&#xd;&#xa;"
+                    textIsRich="true"
+                    title="Event Title ">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="5"/>
+                    </cq:responsive>
+                </eventdetails>
+                <options
+                    jcr:created="{Date}2022-09-08T00:00:51.025+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-08T00:00:51.025+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="event-registration/components/form/options"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
