@@ -38,6 +38,10 @@ The result need to be stored in JCR as GUID. Once complete the user can get a al
 * Used core form component for adding user input fields on a page (added new action type).
 * Created servlet to accept form data and helper functions to submit that data to HTTP endpoint, assuming end point can be any other external system
 * Created Mock HTTP endpoint in AEM using servlet and to store data in JCR 
+* Created simple test case to test data will be forwarded to HTTP endpoint
+* Keeping time constraint in mind following items are pending 
+   * Service User Creation for posting data 
+   * More code code coverage
 
 
 ## Modules
