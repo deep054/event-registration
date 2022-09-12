@@ -34,6 +34,7 @@ The result need to be stored in JCR as GUID. Once complete the user can get a al
 
 ## Assumptions / Key points
 * Assuming basic validation will be done at frontend.
+* Css/Styling not implemented   
 * Used and extended text component for adding event details on a page.
 * Used core form component for adding user input fields on a page (added new action type).
 * Created servlet to accept form data and helper functions to submit that data to HTTP endpoint, assuming end point can be any other external system
