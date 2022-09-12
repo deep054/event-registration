@@ -36,7 +36,6 @@ public class EventRegistrationRpcServlet extends SlingAllMethodsServlet {
 
     static final String RESOURCE_TYPE = "event-registration/components/form/actions/rpc";
     static final String SELECTOR = "post";
-    private static final String ATTR_RESOURCE = FormsHandlingServletHelper.class.getName() + "/resource";
     private static final Logger LOG = LoggerFactory.getLogger(EventRegistrationRpcServlet.class);
     private static  String SUCCESS_PAGE = "/content/event-registration/us/en/event-registration/error";
     private static  String ERROR_PAGE = "/content/event-registration/us/en/event-registration/success";
