@@ -1,6 +1,42 @@
-# Sample AEM project template
+# AEM Interview Assignment
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+This project is been created to demonstrate AEM coding challange assignment 
+
+## Assignment Requirement which are considered  
+Coding Challenge Description: Build a simple AEM site with 2 pages - Event Details, Event Registration Page using AEM latest core components and maven archetype.
+The Event details page needs to have title, image, event details as text.
+The event registration page should collect first name, last name and email.
+This detail on submission should go to a mocked up endpoint. 
+The result need to be stored in JCR as GUID. Once complete the user can get a alert message or moved to thank you page.
+
+* Key Assumption: Customer doesn’t have AEM Forms license (but just Sites). Document all assumptions.
+  
+* Task (elaborating the exercise further)
+  
+     -Using the Maven archetype for AEM, set up a project. 
+  
+     -Build
+        -A Servlet that will accept three fields (first name, last name, and email). Do validation and exception handling (imagine the front end can call this servlet)
+  
+        -Build a Service to take the fields, validate and use HTTP Service (can be mocked) to call external API (Do validation and exception handling)
+  
+        -Write a quick unit test (to test i or ii or both)
+  
+        -[Bonus Points] Extent a core component (can be Text component) to have any additional field.
+
+## Dependencies
+* This project is been built using AEM archetype 23 
+* The Latest archetype 37 is not working in 6.5.0 (No SP) since I was not able to download latest SP on my local Mac
+* Used core component version 2.8.0 which is compatible with AEM 6.5.0
+* Tested this project in AEM 6.5.0
+* Changed CSRF config to allow POST method  
+   
+
+## Assumptions / Key points
+* Assuming basic validation will be done at frontend.
+* Used and extended text component for adding event details on a page.
+* Used core form component for adding user input fields on a page (added new action type).
+* Created servlet to accept form data 
 
 ## Modules
 
